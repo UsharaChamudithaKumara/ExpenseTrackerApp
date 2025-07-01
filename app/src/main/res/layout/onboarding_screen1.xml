@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <ImageView
+        android:layout_width="254dp"
+        android:layout_height="317dp"
+        android:src="@drawable/onboard1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Track Your Money Easily"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keep records of your income and expenses with just a few taps."
+        android:textSize="14sp"
+        android:layout_marginTop="12dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/btnNext1"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@android:color/white" />
+</LinearLayout>

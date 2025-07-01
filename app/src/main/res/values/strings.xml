@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Finance Tracker</string>
+    <string name="budget_status">Budget: LKR 50,000 | Spent: LKR 20,000</string>
+    <string name="add_transaction">Add Transaction</string>
+    <string name="transaction_history">Transaction History</string>
+    <string name="settings">Settings</string>
+    <string name="fab_add_transaction">Add a new transaction</string>
+    <string name="transaction_list">List of transactions</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:layout_width="297dp"
+        android:layout_height="319dp"
+        android:contentDescription="Visual Insights"
+        android:src="@drawable/onboard2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visualize Your Spending"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Understand your habits with beautiful charts and summaries."
+        android:textSize="14sp"
+        android:layout_marginTop="12dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/btnNext2"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@android:color/white" />
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:padding="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etUpdateTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Title" />
+
+
+        <EditText
+            android:id="@+id/etUpdateAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Amount"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="8dp" />
+
+        <Spinner
+            android:id="@+id/spinnerUpdateCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" />
+
+        <RadioGroup
+            android:id="@+id/rgUpdateType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <RadioButton
+                android:id="@+id/rbUpdateIncome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INCOME" />
+
+            <RadioButton
+                android:id="@+id/rbUpdateExpense"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EXPENSE"
+                android:layout_marginStart="16dp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/tvUpdateDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Date"
+            android:background="#EEEEEE"
+            android:padding="12dp"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+</ScrollView>
